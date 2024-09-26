@@ -3,7 +3,9 @@
   <Navbar />
   <RouterView/>
   <!-- 768 412 breakpoints-->
+  
  <Partlast/>
+ 
 </template>
 
 

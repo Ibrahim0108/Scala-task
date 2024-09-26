@@ -57,19 +57,29 @@ export default {
   pointer-events: none;
 }
 
-@media (min-width: 768px) {
-  .half-faded-image {
-    width: 60%; /* Keep the original width for larger screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Adjust spacing for image and text */
+  .flex.flex-col.h-auto.mb-28.items-center.justify-between.px-8 {
+    flex-direction: column; /* Stack image and text vertically */
+    padding: 20px; /* Adjust padding as needed */
+  }
+
+
+
+  /* Adjust image size */
+  .half-faded-image img {
+    width: 100%; /* Make image full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Adjust heading and paragraph sizes */
+  h1 {
+    font-size: 24px; /* Adjust font size as needed */
+  }
+
+  p {
+    font-size: 16px; /* Adjust font size as needed */
   }
 }
 
-@media (max-width: 412px) {
-  h1 {
-    font-size: 2xl; /* Adjust font size for smaller screens */
-  }
-  
-  p {
-    font-size: 14px; /* Adjust paragraph font size for smaller screens */
-  }
-}
 </style>

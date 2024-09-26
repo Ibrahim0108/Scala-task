@@ -45,14 +45,14 @@ export default {
 @media (max-width: 768px) {
     .video-container iframe {
         width: 90%; 
-        height: auto; 
+        height: 40vh; 
     }
 }
 
 @media (max-width: 412px) {
     .video-container iframe {
         width: 100%; 
-        height: auto; 
+        height: 30vh; 
     }
 }
 </style>

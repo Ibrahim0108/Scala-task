@@ -1,0 +1,172 @@
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Hide location logo and India for mobile */
+  .flex.items-center.space-x-4.contact-container {
+    margin-left: auto;
+  }
+
+  /* Adjust Contact button for mobile to be on the right */
+  .flex.items-center.space-x-4.contact-container {
+    position: absolute;
+    right: 1rem; /* Move it to the right edge */
+  }
+
+  /* Adjust logo size for 601-768px */
+  img {
+    height: 40px; /* Adjust height for mobile */
+  }
+  
+  /* Adjust button size for mobile */
+  .contact-container button {
+    padding: 0.5rem 1rem; /* Adjust padding for the contact button */
+    font-size: 0.875rem; /* Adjust font size for the button */
+  }
+}
+
+/* Responsive styles for tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Adjust logo size for 768-1024px */
+  img {
+    height: 50px; /* Adjust height for tablet */
+  }
+
+  /* Adjust button size for tablet */
+  .contact-container button {
+    padding: 0.75rem 1.5rem; /* Adjust padding for the contact button */
+    font-size: 1rem; /* Adjust font size for the button */
+  }
+
+  /* Adjust sidebar toggle icon size */
+  .fa-bars {
+    font-size: 1.25rem; /* Make the hamburger menu icon larger */
+  }
+}
+
+/* Responsive styles for 800px */
+@media (max-width: 800px) {
+  /* Adjust logo size for 800px */
+  img {
+    height: 45px; /* Adjust height for 800px */
+  }
+
+  /* Adjust button size for 800px */
+  .contact-container button {
+    padding: 0.65rem 1.25rem; /* Adjust padding for the contact button */
+    font-size: 0.95rem; /* Adjust font size for the button */
+  }
+
+  /* Adjust sidebar toggle icon size */
+  .fa-bars {
+    font-size: 1.15rem; /* Make the hamburger menu icon larger */
+  }
+}
+
+/* Responsive styles for 820px */
+@media (max-width: 820px) {
+  /* Adjust logo size for 820px */
+  img {
+    height: 48px; /* Adjust height for 820px */
+  }
+
+  /* Adjust button size for 820px */
+  .contact-container button {
+    padding: 0.7rem 1.2rem; /* Adjust padding for the contact button */
+    font-size: 0.95rem; /* Adjust font size for the button */
+  }
+
+  /* Adjust sidebar toggle icon size */
+  .fa-bars {
+    font-size: 1.2rem; /* Make the hamburger menu icon larger */
+  }
+}
+
+/* Responsive styles for 830px */
+@media (max-width: 830px) {
+  /* Adjust logo size for 830px */
+  img {
+    height: 48px; /* Same as 820px for consistency */
+  }
+
+  /* Adjust button size for 830px */
+  .contact-container button {
+    padding: 0.7rem 1.2rem; /* Same as 820px for consistency */
+    font-size: 0.95rem; /* Same as 820px for consistency */
+  }
+
+  /* Adjust sidebar toggle icon size */
+  .fa-bars {
+    font-size: 1.2rem; /* Same as 820px for consistency */
+  }
+}
+/* Responsive styles for 1256px */
+@media (min-width: 1025px) and (max-width: 1256px) {
+  nav {
+    justify-content: space-between; /* Ensure space between items */
+    padding: 0 1rem; /* Add some padding to avoid edge issues */
+  }
+
+  /* Sidebar, logo, and contact button layout */
+  .flex.items-center {
+    justify-content: space-between; /* Spread items across the available space */
+    width: 100%; /* Ensure it takes full width */
+  }
+
+  /* Adjusting the logo and contact button layout */
+  .contact-container {
+    margin-left: auto; /* Push contact button to the right */
+    display: flex; /* Ensure the contact button is aligned correctly */
+    align-items: center; /* Center items vertically */
+  }
+
+  /* Adjust logo size for 1256px */
+  img {
+    height: 60px; /* Adjust height for logo */
+  }
+
+  /* Adjust button size for 1256px */
+  .contact-container button {
+    padding: 0.85rem 1.75rem; /* Adjust padding for the contact button */
+    font-size: 1.1rem; /* Adjust font size for the button */
+  }
+
+  /* Ensure location icon and 'India' are displayed inline */
+  .flex.items-center.hover\:text-red-600.cursor-pointer {
+    display: flex; /* Make it a flex container */
+    align-items: center; /* Align items vertically */
+  }
+}
+
+
+/* Responsive styles for 1256px */
+@media (min-width: 1025px) and (max-width: 1256px) {
+  nav {
+    justify-content: space-between; /* Ensure space between items */
+  }
+
+  /* Sidebar, logo, and contact button layout */
+  .flex.items-center {
+    justify-content: flex-start; /* Align sidebar and logo to the left */
+  }
+
+  .contact-container {
+    margin-left: auto; /* Push contact button to the right */
+  }
+
+  /* Adjust logo size for 1256px */
+  img {
+    height: 60px; /* Adjust height for logo */
+  }
+
+  /* Adjust button size for 1256px */
+  .contact-container button {
+    padding: 0.85rem 1.75rem; /* Adjust padding for the contact button */
+    font-size: 1.1rem; /* Adjust font size for the button */
+  }
+}
+</style>

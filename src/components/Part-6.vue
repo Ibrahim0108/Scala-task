@@ -1,45 +1,39 @@
 <template>
   <div class="mt-20 flex flex-col items-center mb-44">
-  <div class="flex justify-evenly w-full">
-    <div class="image">
-      <img class="h-24" src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/apac-scala-sg/Sg-home-images/Digital-Signs-sg.jpg.webp" alt="">
-      <span class="num">3.1 M</span>
-      <span>Digital Signs</span>
+    <div class="flex justify-evenly w-full">
+      <div class="image">
+        <img class="h-24" src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/apac-scala-sg/Sg-home-images/Digital-Signs-sg.jpg.webp" alt="">
+        <span class="num">3.1 M</span>
+        <span>Digital Signs</span>
+      </div>
+      <div class="image">
+        <img class="h-24" src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/apac-scala-sg/Sg-home-images/Employees-Worldwide-sg.jpg.webp" alt="">
+        <span class="num">1000+</span>
+        <span>Employees Worldwide</span>
+      </div>
+      <div class="image">
+        <img class="h-24" src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/apac-scala-sg/Sg-home-images/Countries-Represented-sg.webp" alt="">
+        <span class="num">100+</span>
+        <span>Countries Represented</span>
+      </div>
+      <div class="image">
+        <img class="h-24" src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/apac-scala-sg/Sg-home-images/Offices-sg.jpg.webp" alt="">
+        <span class="num">28</span>
+        <span>Offices</span>
+      </div>
+      <div class="image">
+        <img class="h-24" src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/apac-scala-sg/Sg-home-images/Languages-sg.jpg.webp" alt="">
+        <span class="num">23</span>
+        <span>Languages</span>
+      </div>
     </div>
-    <div class="image">
-      <img class="h-24" src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/apac-scala-sg/Sg-home-images/Employees-Worldwide-sg.jpg.webp" alt="">
-      <span class="num">1000+</span>
-      <span>Employees Worldwide</span>
-    </div>
-    <div class="image">
-      <img class="h-24" src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/apac-scala-sg/Sg-home-images/Countries-Represented-sg.webp" alt="">
-      <span class="num">100+</span>
-      <span>Countries Represented</span>
-    </div>
-    <div class="image">
-      <img class="h-24" src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/apac-scala-sg/Sg-home-images/Offices-sg.jpg.webp" alt="">
-      <span class="num">28</span>
-      <span>Offices</span>
-    </div>
-    <div class="image">
-      <img class="h-24" src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/apac-scala-sg/Sg-home-images/Languages-sg.jpg.webp" alt="">
-      <span class="num">23</span>
-      <span>Languages</span>
-    </div>
-    
   </div>
-</div>
 </template>
-
-
 
 <script>
 export default {
-
 }
 </script>
-
-
 
 <style>
 .image {
@@ -60,7 +54,6 @@ span {
   color: #a5a7a9;
 }
 
-
 @media (max-width: 768px) {
   .flex {
     flex-wrap: wrap; 
@@ -71,8 +64,19 @@ span {
     width: calc(50% - 1rem); 
     margin-bottom: 1rem; 
   }
-}
 
+  img {
+    height: 18px; /* Decrease image size */
+  }
+
+  span {
+    font-size: 14px; /* Decrease text size */
+  }
+
+  .num {
+    font-size: 40px; /* Decrease number size */
+  }
+}
 
 @media (max-width: 412px) {
   .flex {
@@ -85,12 +89,16 @@ span {
     margin-bottom: 1rem; 
   }
 
+  img {
+    height: 16px; /* Further decrease image size */
+  }
+
   span {
-    font-size: 16px; 
+    font-size: 12px; /* Further decrease text size */
   }
 
   .num {
-    font-size: 40px; 
+    font-size: 30px; /* Further decrease number size */
   }
 }
 </style>

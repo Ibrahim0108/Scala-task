@@ -141,13 +141,45 @@ select,label {
 
   .full-width {
     width: 100%;
+  }@media (max-width: 768px) {
+  /* Adjust form container padding */
+  .bg-gray-100.rounded-2xl.p-20 {
+    padding: 16px;
+  }
+
+  /* Center the form title */
+  h2 {
+    text-align: center;
+  }
+
+  /* Make input fields and select elements full width */
+  input, textarea, select {
+    width: 100%;
+    padding: 10px; /* Adjust padding as needed */
+  }
+
+  /* Reduce gap between input fields */
+  .flex.flex-wrap.gap-4 {
+    gap: 12px;
+  }
+
+  /* Adjust checkbox and label spacing */
+  .flex.items-center.gap-4.mb-4 {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /* Make submit button a bit smaller */
+  button.w-40 {
+    width: 80%; /* Adjust width as needed */
   }
 }
 
-  
-  input, textarea {
-    width: 100%;
-    padding: 12px;
-
+@media (max-width: 412px) {
+  /* Further reduce gap between input fields */
+  .flex.flex-wrap.gap-4 {
+    gap: 8px;
   }
+}
+}
 </style>
