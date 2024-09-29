@@ -32,6 +32,6 @@ export default {
 
 
 
-<style>
+<style scoped>
 
 </style>

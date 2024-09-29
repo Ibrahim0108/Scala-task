@@ -35,7 +35,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .image {
   display: flex;
   flex-direction: column;
@@ -66,15 +66,15 @@ span {
   }
 
   img {
-    height: 18px; /* Decrease image size */
+    height: 60px; 
   }
 
   span {
-    font-size: 14px; /* Decrease text size */
+    font-size: 14px; 
   }
 
   .num {
-    font-size: 40px; /* Decrease number size */
+    font-size: 40px; 
   }
 }
 
@@ -86,19 +86,18 @@ span {
 
   .image {
     width: calc(50% - 1rem); 
-    margin-bottom: 1rem; 
   }
 
   img {
-    height: 16px; /* Further decrease image size */
+    height: 50px; 
   }
 
   span {
-    font-size: 12px; /* Further decrease text size */
+    font-size: 12px; 
   }
 
   .num {
-    font-size: 30px; /* Further decrease number size */
+    font-size: 30px; 
   }
 }
 </style>

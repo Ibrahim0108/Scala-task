@@ -1,11 +1,13 @@
 <template>
   <div class="flex flex-col md:flex-row h-auto mb-28 items-center justify-between px-8">
-    <div class="w-full md:w-1/2 flex flex-col items-center justify-center mb-6 md:mb-0">
+    <!-- Contact Heading and Description Section -->
+    <div class="w-full md:w-1/2 flex flex-col items-center justify-center mb-6 md:mb-0 order-2 md:order-1">
       <h1 class="text-4xl font-bold mb-4">Contact</h1>
       <p class="text-lg text-center">Global Sales and Support</p>
     </div>
 
-    <div class="w-full md:w-1/2 half-faded-image">
+    <!-- Half Faded Image Section -->
+    <div class="w-full md:w-1/2 half-faded-image order-1 md:order-2">
       <img src="../assets/Contact.jpg" alt="Half Faded Image" class="w-full h-auto object-cover">
     </div>
   </div>
@@ -17,10 +19,7 @@
   
   <Second/>
 
-  <h1 class="text-4xl mt-28 text-center font-semibold text-gray-600">Customer Support</h1>
-  <div class="w-40 mb-14 h-2 rounded-full bg-red-600 mx-auto mt-8"></div>
-  
-  <Second2/>
+
 </template>
 
 <script>
@@ -53,32 +52,30 @@ export default {
   right: 0; 
   width: 100%; 
   height: 100%;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 60%); /* Adjust gradient for desired blend effect */
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 60%);
   pointer-events: none;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  /* Adjust spacing for image and text */
-  .flex.flex-col.h-auto.mb-28.items-center.justify-between.px-8 {
-    flex-direction: column; /* Stack image and text vertically */
-    padding: 20px; /* Adjust padding as needed */
+/* Media Query for Adjusting Layout */
+@media (max-width: 768px) {
+  .flex.flex-col.md\:flex-row.h-auto.mb-28.items-center.justify-between.px-8 {
+    flex-direction: column; /* Stack items vertically */
   }
 
+  /* Adjust the order for smaller screens */
+  .half-faded-image {
+    order: 1; /* Make half-faded image come first */
+  }
 
+  .flex.flex-col.items-center.justify-center.mb-6.md\:mb-0 {
+    order: 2; /* Make contact heading and description come next */
+  }
 
-  /* Adjust image size */
+  /* Ensure the image is full width */
   .half-faded-image img {
     width: 100%; /* Make image full width */
     height: auto; /* Maintain aspect ratio */
-  }
-
-  /* Adjust heading and paragraph sizes */
-  h1 {
-    font-size: 24px; /* Adjust font size as needed */
-  }
-
-  p {
-    font-size: 16px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add margin to separate it from the next section */
   }
 }
 

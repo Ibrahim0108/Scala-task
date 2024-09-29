@@ -4,7 +4,7 @@
 <div class="w-32 md:w-64 h-2 rounded-full bg-red-600 mx-auto mt-4 md:mt-8"></div>
  
   <div class="max-w-6xl mx-auto p-6 mb-10 mt-8 rounded-lg">
-    <p class="text-gray-600 text-xl leading-relaxed text-center px-4">
+    <p class="text-gray-600 text-xl leading-relaxed text-center px-4  ">
         Scala provides superior digital signage solutions for brands across every
         industry, transforming their customer experience with immersive visual
         content and advanced marketing technology.
@@ -31,6 +31,18 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+@media (min-width:768px){
+  p{
+     font-size: 20px ;
+  }
+}
+@media (max-width : 412px){
+  p{
+     font-size: 15px ;
+  }
+  button{
+    width: 60%;
+  }
+}
 </style>

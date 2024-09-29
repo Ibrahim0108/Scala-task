@@ -32,35 +32,38 @@ export default {};
 </script>
 
 <style scoped>
-/* Main container */
+
 .main {
   display: flex;
-  flex-direction: column; /* Default to column layout */
+  flex-direction: column; 
 }
 
-/* Video container styles */
+
 .video-container {
   position: relative;
   width: 100%;
-  height: 50vh; /* Default height for mobile */
+  height: 50vh; 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .video-container .video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: block; 
+  
+
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
 }
 
-/* Responsive styles for larger screens */
+
 @media (min-width: 768px) {
   .main {
-    flex-direction: row; /* Switch to row layout on tablets and larger screens */
+    flex-direction: row; 
     height: 75vh;
   }
 
@@ -70,7 +73,7 @@ export default {};
   }
 
   .video-container {
-    height: 75vh; /* Adjust height for larger screens */
+    height: 75vh; 
   }
 
   .video {
@@ -80,7 +83,7 @@ export default {};
   
 }
 
-/* Adjustments for small mobile screens */
+
 @media (max-width: 768px) {
   .main {
     flex-direction: column;
@@ -94,7 +97,7 @@ export default {};
   }
 
   .video-container {
-    height: 35vh; /* Adjust height for smaller screens */
+    height: 35vh; 
   }
 
   .video {
@@ -108,4 +111,6 @@ export default {};
     display: none;
   }
 }
+
+
 </style>

@@ -106,6 +106,7 @@ export default {};
   .slider-item {
     width: 50%; 
   }
+  
 }
 
 @media (max-width: 412px) {

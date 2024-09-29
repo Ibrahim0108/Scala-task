@@ -1,8 +1,7 @@
 <template>
   <section class="text-gray-400 body-font">
     <div class="container px-5 py-24 mx-auto">
-      <!-- <h1 class="text-4xl text-center font-semibold text-gray-600">Featured Industries</h1>
-      <div class="w-56 h-2 rounded-full bg-red-600 mx-auto mt-8"></div> -->
+      
 
       <div class="relative flex flex-wrap slider-container mt-20">
         <!-- Card 1 -->
@@ -36,10 +35,13 @@
         </div>
       </div>
 
-      <div class="flex justify-center">
-        <button class="mt-8 bg-red-600 text-white rounded-lg w-80 py-2 text-xl font-bold">View all industries</button>
-      </div>
     </div>
+    <div class="flex justify-center">
+  <button class="mt-4 mb-14 bg-red-600 text-white rounded-lg py-2 text-xl w-2/5 ">
+    View all industries
+  </button>
+</div>
+
   </section>
 </template>
 
@@ -47,45 +49,52 @@
 export default {};
 </script>
 
-<style>
+<style scoped >
 .slider-container {
   display: flex;
   overflow-x: auto;
-  gap: 16px; /* Adjust spacing between cards */
-  scroll-snap-type: x mandatory; /* Enable snapping effect */
+  gap: 16px; 
+  scroll-snap-type: x mandatory; 
 }
 
 .slider-item {
-  flex: 0 0 auto; /* Prevent flex item from growing */
-  scroll-snap-align: center; /* Center align the cards */
-  width: 100%; /* Set card width for mobile screens */
-  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transition */
+  flex: 0 0 auto; 
+  scroll-snap-align: center; 
+  width: 100%; 
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out; 
 }
 
 .slider-item:hover {
-  transform: scale(1.05); /* Scale effect on hover */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Shadow effect on hover */
+  transform: scale(1.05); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); 
 }
+
+
 
 @media (min-width: 768px) {
   .slider-item {
-    width: 33.33%; /* 3 cards in a row for larger screens */
+    width: 50%; 
   }
+  
+  
 }
 
-@media (min-width: 412px) and (max-width: 767px) {
+@media (min-width: 1080px) {
   .slider-item {
-    width: 50%; /* 2 cards in a row for medium screens */
+    width: 33.33%; 
   }
 }
 
 @media (max-width: 412px) {
   .slider-item {
-    width: 100%; /* 1 card in a row for mobile screens */
+    width: 100%; 
+  }
+  button{
+    width: 50%;
   }
 }
 
-/* Hide scrollbar for a cleaner look */
+
 .slider-container::-webkit-scrollbar {
   display: none;
 }

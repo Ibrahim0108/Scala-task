@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center">
+  <div class="flex flex-col items-center mb-16">
     <!-- Buttons -->
     <div class="flex flex-wrap justify-evenly space-x-4 space-y-2 mt-40 mb-8 w-full max-w-4xl">
       <button class="w-36 p-2 bg-red-600 text-white font-bold rounded-full">Blogs</button>
@@ -39,6 +39,7 @@
       </div>
     </div>
   </div>
+  
 </template>
 
 <script>
@@ -46,4 +47,5 @@ export default {};
 </script>
 
 <style scoped>
+
 </style>

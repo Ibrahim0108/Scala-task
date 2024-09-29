@@ -47,5 +47,29 @@ span{
   font-size: 20px;
   font-weight: 500;
 }
+@media (max-width: 768px) {
+  .flex {
+    flex-wrap: wrap; 
+  }
+
+  .image {
+    flex: 0 0 30%; 
+    margin-bottom: 20px; 
+  }
+
+  .image img {
+    height: 90px; 
+    width: auto; 
+  }
+
+  span {
+    font-size: 18px; 
+  }
+}
+@media (max-width: 412px) {
+  span {
+    font-size: 14px; 
+  }
+}
 
 </style>
