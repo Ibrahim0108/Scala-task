@@ -262,7 +262,7 @@ footer {
   
   #add {
     text-align: center; 
-    padding: 0 10px; 
+    padding: 0 10px;
   }
   
   #colss {
@@ -305,101 +305,5 @@ footer {
     font-size: 12px; 
   }
 }
-@media (min-width:400px){
-  .main-content {
-    font-size: 10px; 
-  }
 
-  #hi {
-    display: none;
-  }
-
-  .overlapping-image {
-    height: 70px; 
-    position: absolute;
-    right: 5px;
-    bottom: 30px; 
-  }
-
-  #foot {
-    flex-direction: column; 
-  }
-
-  
-  #address {
-    padding-left: 0;
-    text-align: center; 
-    margin: 0 auto; 
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-  }
-
-  #address img {
-    height: 30px; 
-    margin-bottom: 8px; 
-  }
-
-  #address {
-    font-size: 14px; 
-    line-height: 1.5; 
-  }
-
- 
-  #add br:nth-of-type(2), 
-  #add br:nth-of-type(3), 
-  #add br:nth-of-type(4),
-  #add br:nth-of-type(10),
-  #add br:nth-of-type(11) { 
-    display: none;
-  }
-
-  
-  #add {
-    text-align: center; 
-    padding: 0 10px; 
-  }
-  
-  #colss {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around; 
-    flex-wrap: nowrap; 
-    font-size: 10px;
-
-  }
-
-  #colss > div {
-    flex: 1; 
-    min-width: 50px; 
-    text-align: center;
-  }
-
-  #location {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    margin-left: 0; 
-    margin-top: 5px;
-    margin-bottom: 5px; 
-  }
-
-  #location i {
-    margin-left: 0; 
-    margin-right: 3px; 
-    font-size: 1.2rem; 
-  }
-
-  #location span {
-    font-size: 1.2rem; 
-  }
-  h2 {
-    margin-left: 0; 
-    margin-right: 0; 
-    text-align: center;
-    margin-top: 8px;
-    font-size: 12px; 
-  }
-}
 </style>
