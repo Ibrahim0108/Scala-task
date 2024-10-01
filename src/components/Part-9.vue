@@ -10,9 +10,9 @@
 
     <!--horizontal cards -->
     <div class="grid grid-cols-1 mb-28 mt-14 md:grid-cols-2 gap-4 w-full max-w-4xl">
-      <div class="max-w-md w-full p-2">
+      <div class="max-w-xl w-full p-2">
         <div class="flex bg-gray-100 rounded-lg overflow-hidden">
-          <div class="w-32 flex-none">
+          <div class="w-36 flex-none">
             <img src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/Blogs/Impact-of-Digital-Signage-on-Omnichannel-Retail-Experiences-in-Singapore-image-2.webp" class="w-full h-full object-cover" title="Digital Signage Image">
           </div>
           <div class="p-4 flex flex-col justify-between w-full">
@@ -26,7 +26,7 @@
 
       <div class="max-w-lg w-full p-2">
         <div class="flex bg-gray-100 rounded-lg overflow-hidden">
-          <div class="w-32 flex-none">
+          <div class="w-36 flex-none">
             <img src="https://stgenpdsg1.sg-sin1.upcloudobjects.com/stgencntsg/Blogs/The-Ultimate-Guide-to-Digital-Menu-Boards-Boosting-Restaurant-Efficiency-in-India-img-1.webp" class="w-full h-full object-cover" title="Digital Menu Boards Image">
           </div>
           <div class="p-4 flex flex-col justify-between w-full">
