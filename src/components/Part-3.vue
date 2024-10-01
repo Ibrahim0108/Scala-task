@@ -37,7 +37,7 @@
 
     </div>
     <div class="flex justify-center">
-  <button class="mt-4 mb-14 bg-red-600 text-white rounded-lg py-2 text-xl w-2/5 ">
+  <button class="mt-4 mb-14 bg-red-600 text-white rounded-lg py-2 text-xl w-80">
     View all industries
   </button>
 </div>
@@ -90,7 +90,7 @@ export default {};
     width: 100%; 
   }
   button{
-    width: 50%;
+    width: 40%;
   }
 }
 

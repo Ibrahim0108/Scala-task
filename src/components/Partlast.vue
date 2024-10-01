@@ -8,7 +8,7 @@
   </router-link>
   <footer>
       <div class=" w-full  max-w-screen-xl p-4 py-6 md:py-8" id="foots">
-          <div class=" mr-20 flex justify-between gap-20 md:flex " id="foot">
+          <div class=" mr-20 flex justify-between  md:flex " id="foot">
               <div class=" pt-10 mb-6 ml-10 md:mb-2" id="address">
                   <a href="" class="flex items-center mb-6">
                       <img class="logo"
@@ -22,7 +22,7 @@
               </div>
               <div class="flex justify-evenly w-full pt-20 text-center gap-10 space-x-0 md:space-x-4" id="colss">
                   <div class="flex-1 ">
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Industries</h2>
+                      <h2 class="mb-6 text-sm font-semibold text-gray-600 uppercase dark:text-white">Industries</h2>
                       <ul class="text-gray-500 dark:text-gray-400 font-medium">
                           <li><a href="" class="hover:underline">Retail</a></li>
                           <li><a href="" class="hover:underline">QSR</a></li>
@@ -31,7 +31,7 @@
                       </ul>
                   </div>
                   <div class="flex-1 ">
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Case Studies</h2>
+                      <h2 class="mb-6 text-sm font-semibold text-gray-600 uppercase dark:text-white">Case Studies</h2>
                       <ul class="text-gray-500 dark:text-gray-400 font-medium">
                           <li><a href="#" class="hover:underline">Wendy's</a></li>
                           <li><a href="#" class="hover:underline">KIA</a></li>
@@ -40,7 +40,7 @@
                       </ul>
                   </div>
                   <div class="flex-1  ">
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Solutions</h2>
+                      <h2 class="mb-6 text-sm font-semibold text-gray-600 uppercase dark:text-white">Solutions</h2>
                       <ul class="text-gray-500 dark:text-gray-400 font-medium">
                           <li><a href="#" class="hover:underline">Lift & Learn</a></li>
                           <li><a href="#" class="hover:underline">Place & Learn</a></li>
@@ -49,7 +49,7 @@
                       </ul>
                   </div>
                   <div class="flex-1 ">
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                      <h2 class="mb-6 text-sm font-semibold text-gray-600 uppercase dark:text-white">Resources</h2>
                       <ul class="text-gray-500 dark:text-gray-400 font-medium">
                           <li><a href="#" class="hover:underline">Blogs</a></li>
                           <li><a href="#" class="hover:underline">Digital Signage FAQ</a></li>
@@ -63,7 +63,7 @@
               <img class="h-56" id="hi" src="../assets/Scala-Footer-BG.jpg" alt="">
           </div>
           
-          <div class="flex justify-center ml-40 mt-7 mb-6 text-gray-400" id="location">
+          <div class="flex justify-center ml-40 mt-6 mb-6 text-gray-400" id="location">
               <i class="fa-solid fa-location-dot flex justify-center mt-4 fa-lg ml-6 mr-2 cursor-pointer" style="color: darkgray;"></i>
               <span class="text-2xl text-gray-400" id="india">India</span>
           </div>
@@ -285,13 +285,13 @@ footer {
     justify-content: center; 
     align-items: center; 
     margin-left: 0; 
-    margin-top: 5px;
+    margin-top: 30px;
     margin-bottom: 5px; 
   }
 
   #location i {
     margin-left: 0; 
-    margin-right: 3px; 
+    margin-right: 5px; 
     font-size: 1.2rem; 
   }
 
@@ -303,7 +303,7 @@ footer {
     margin-right: 0; 
     text-align: center;
     margin-top: 8px;
-    font-size: 8px; 
+    font-size: 10px; 
   }
 }
 

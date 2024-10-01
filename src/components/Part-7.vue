@@ -3,7 +3,7 @@
     <h1 class="text-4xl text-center font-semibold text-gray-600">Featured Solutions</h1>
     <div class="w-56 h-2 rounded-full bg-red-600 mx-auto mt-8"></div>
 
-    <div class="relative flex flex-wrap justify-evenly gap-4 mt-20 slider-container">
+    <div class="relative flex flex-wrap justify-evenly gap-10 mt-20 slider-container">
   <!-- Card 1 -->
   <div class="relative mb-10 flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md slider-item">
     <div class="relative m-0 overflow-hidden rounded-t-xl bg-transparent bg-clip-border text-gray-700 shadow-none">
@@ -47,10 +47,10 @@
     </div>
     <div class="p-6">
       <h4 class="block font-sans text-2xl font-bold leading-snug tracking-normal text-red-600 antialiased">Flight Info Display</h4>
-      <p class="mt-1 block font-sans text-lg font-normal leading-relaxed text-gray-700 antialiased">
+      <p class="mt-1 block font-sans text-lg font-normal leading-relaxed text-gray-700 pb-7 antialiased">
         Keep passengers informed with real-time flight information displayed seamlessly.</p>
     </div>
-    <div class="flex items-center justify-between p-14">
+    <div class="flex items-center justify-between p-6">
       <a class="text-red-600 inline-flex items-center">Learn More >></a> 
     </div>
   </div>
@@ -86,7 +86,7 @@ export default {};
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-  gap: 16px;
+  gap: 30px;
   scroll-snap-type: x mandatory;
 }
 
@@ -104,14 +104,24 @@ export default {};
 
 @media (min-width: 412px) and (max-width: 767px) {
   .slider-item {
-    width: 50%; 
+    width: 80%; 
   }
   
 }
 
-@media (max-width: 412px) {
+
+@media (min-width: 1080px) {
+  .slider-item {
+    width: 33.33%; 
+  }
+}
+
+@media (max-width: 430px) {
   .slider-item {
     width: 100%; 
+  }
+  button{
+    width: 50%;
   }
 }
 
