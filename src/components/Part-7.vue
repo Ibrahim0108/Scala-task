@@ -56,7 +56,7 @@
   </div>
 </div>
   <div class="flex justify-center ">
-    <button class= " mt-8 bg-red-600 text-white rounded-lg w-80 py-2 text-xl font-bold">View all solutions</button></div>
+    <button class= " mt-8 bg-red-600 text-white rounded-lg w-80 py-2 text-xl ">View all solutions</button></div>
 
 
 
@@ -104,7 +104,7 @@ export default {};
 
 @media (min-width: 412px) and (max-width: 767px) {
   .slider-item {
-    width: 80%; 
+    width: 60%; 
   }
   
 }
@@ -118,7 +118,7 @@ export default {};
 
 @media (max-width: 430px) {
   .slider-item {
-    width: 100%; 
+    width: 90%; 
   }
   button{
     width: 50%;

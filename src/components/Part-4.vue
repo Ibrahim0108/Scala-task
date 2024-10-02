@@ -20,7 +20,7 @@
         digital signage solutions.
     </p>
     <div class="flex justify-center ">
-      <button class= " mt-14 bg-red-600 text-white rounded-lg w-80 py-2 text-xl font-bold">Connect with us</button></div>
+      <button class= " mt-14 bg-red-600 text-white rounded-lg w-80 py-2 text-xl ">Connect with us</button></div>
 </div>
 </div>
 </template>
@@ -39,10 +39,10 @@ export default {
 }
 @media (max-width : 412px){
   p{
-     font-size: 15px ;
+     font-size: 12px ;
   }
   button{
-    width: 60%;
+    width: 70%;
   }
 }
 </style>

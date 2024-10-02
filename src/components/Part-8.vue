@@ -93,7 +93,7 @@
     </div>
 
     <div class="flex justify-center items-center mt-10 mb-4">
-      <button type="submit" class="w-40 font-bold text-base p-3 bg-red-600 text-white rounded-full hover:bg-red-700">Submit</button>
+      <button type="submit" class="w-40  text-base p-3 bg-red-600 text-white rounded-full hover:bg-red-700">Submit</button>
     </div>
   </form>
 </template>

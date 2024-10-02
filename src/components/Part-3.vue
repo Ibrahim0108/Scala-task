@@ -73,7 +73,7 @@ export default {};
 
 @media (min-width: 768px) {
   .slider-item {
-    width: 50%; 
+    width:  33.33%; 
   }
   
   
@@ -90,7 +90,7 @@ export default {};
     width: 100%; 
   }
   button{
-    width: 40%;
+    width: 50%;
   }
 }
 
