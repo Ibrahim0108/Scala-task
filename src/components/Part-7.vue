@@ -56,7 +56,7 @@
   </div>
 </div>
   <div class="flex justify-center ">
-    <button class= " mt-8 bg-red-600 text-white rounded-lg w-80 py-2 text-xl ">View all solutions</button></div>
+    <button class= "mt-8 bg-red-600 text-white rounded-lg  w-64  py-2 text-xl ">View all solutions</button></div>
 
 
 
@@ -90,6 +90,7 @@ export default {};
   scroll-snap-type: x mandatory;
 }
 
+
 .slider-item {
   flex: 0 0 auto; 
   scroll-snap-align: center;
@@ -120,9 +121,7 @@ export default {};
   .slider-item {
     width: 90%; 
   }
-  button{
-    width: 50%;
-  }
+  
 }
 
 
