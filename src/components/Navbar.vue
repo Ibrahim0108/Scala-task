@@ -240,7 +240,7 @@ ul > li > ul {
 @media( max-width: 430px){
 #btn{
   width: auto;
-  padding: 3px 3px;
+  padding: 3px 6px;
 }
 }
 </style>
