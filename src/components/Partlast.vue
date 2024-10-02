@@ -22,8 +22,8 @@
               </div>
               <div class="flex justify-evenly w-full pt-20 text-center gap-10 space-x-0 md:space-x-4" id="colss">
                   <div class="flex-1 ">
-                      <h2 class="mb-6 text-sm font-semibold text-gray-600 uppercase dark:text-white">Industries</h2>
-                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase ">Industries</h2>
+                      <ul class="text-gray-400 font-medium">
                           <li><a href="" class="hover:underline">Retail</a></li>
                           <li><a href="" class="hover:underline">QSR</a></li>
                           <li><a href="" class="hover:underline">Banking</a></li>
@@ -31,8 +31,8 @@
                       </ul>
                   </div>
                   <div class="flex-1 ">
-                      <h2 class="mb-6 text-sm font-semibold text-gray-600 uppercase dark:text-white">Case Studies</h2>
-                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase ">Case Studies</h2>
+                      <ul class="text-gray-400  font-medium">
                           <li><a href="#" class="hover:underline">Wendy's</a></li>
                           <li><a href="#" class="hover:underline">KIA</a></li>
                           <li><a href="#" class="hover:underline">Carrefour</a></li>
@@ -40,8 +40,8 @@
                       </ul>
                   </div>
                   <div class="flex-1  ">
-                      <h2 class="mb-6 text-sm font-semibold text-gray-600 uppercase dark:text-white">Solutions</h2>
-                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase">Solutions</h2>
+                      <ul class="text-gray-400 font-medium">
                           <li><a href="#" class="hover:underline">Lift & Learn</a></li>
                           <li><a href="#" class="hover:underline">Place & Learn</a></li>
                           <li><a href="#" class="hover:underline">Wayfinding</a></li>
@@ -49,8 +49,8 @@
                       </ul>
                   </div>
                   <div class="flex-1 ">
-                      <h2 class="mb-6 text-sm font-semibold text-gray-600 uppercase dark:text-white">Resources</h2>
-                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <h2 class="mb-6 text-sm font-semibold text-gray-200 uppercase ">Resources</h2>
+                      <ul class="text-gray-400  font-medium">
                           <li><a href="#" class="hover:underline">Blogs</a></li>
                           <li><a href="#" class="hover:underline">Digital Signage FAQ</a></li>
                           <li><a href="#" class="hover:underline">Downloads</a></li>

@@ -96,7 +96,7 @@
       <div class="flex items-center space-x-4">
         <!-- Contact Us Button -->
         <router-link to="/contact">
-          <button class="bg-red-600 text-white text-sm sm:text-base lg:text-lg font-semibold px-3 sm:px-4 lg:px-5 py-2 rounded-lg hover:bg-red-500 transition duration-200">
+          <button class="bg-red-600 text-white text-sm sm:text-base lg:text-lg font-semibold px-3 py-3 rounded-lg hover:bg-red-500 transition duration-200" id="btn">
             Contact Us
           </button>
         </router-link>
@@ -236,5 +236,11 @@ export default {
 
 ul > li > ul {
   z-index: 20;
+}
+@media( max-width: 430px){
+#btn{
+  width: auto;
+  padding: 3px 3px;
+}
 }
 </style>
